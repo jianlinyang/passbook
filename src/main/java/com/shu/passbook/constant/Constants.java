@@ -71,9 +71,10 @@ public class Constants {
     public class PassTable {
         public static final String TABLE_NAME = "pb:pass";
         public static final String FAMILY_I = "i";
+        public static final String USER_ID = "user_id";
         public static final String TEMPLATE_ID = "template_id";
         public static final String TOKEN = "token";
-        public static final String ASSIGNED = "assigned_date";
+        public static final String ASSIGNED_DATE = "assigned_date";
         public static final String CON_DATE = "con_date";
     }
 
@@ -82,7 +83,7 @@ public class Constants {
         public static final String FAMILY_I = "i";
         public static final String USER_ID = "user_id";
         public static final String TYPE = "type";
-        public static final String TEMPLATE = "template_id";
+        public static final String TEMPLATE_ID = "template_id";
         public static final String COMMENT = "comment";
     }
 }
