@@ -51,6 +51,7 @@ public class Constants {
          * 表名
          */
         public static final String TABLE_NAME = "pb:passtemplate";
+        public static final String ID = "id";
         public static final String FAMILY_B = "b";
         public static final String TITLE = "title";
         public static final String SUMMARY = "summary";
