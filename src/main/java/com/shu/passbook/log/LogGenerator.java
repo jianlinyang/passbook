@@ -21,7 +21,7 @@ public class LogGenerator {
      * @param action  日志类型
      * @param info    日志信息,可为null
      */
-    public static void genLog(HttpServletRequest request, Long userId, String action, String info) {
+    public static void genLog(HttpServletRequest request, Long userId, String action, Object info) {
         log.info(
                 JSON.toJSONString(new LogObject(action, userId, System.currentTimeMillis(), request.getRemoteAddr(), info))
         );
