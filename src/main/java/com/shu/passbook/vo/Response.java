@@ -2,7 +2,6 @@ package com.shu.passbook.vo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 /**
  * <h1>Controller 统一响应</h1>
@@ -11,7 +10,6 @@ import lombok.NoArgsConstructor;
  * @date 2019/6/11 19:19
  */
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
 public class Response {
     /**
@@ -41,6 +39,9 @@ public class Response {
      */
     public static Response success() {
         return new Response();
+    }
+
+    public Response() {
     }
 
     /**

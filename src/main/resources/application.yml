@@ -14,11 +14,12 @@ spring:
   data:
     hbase:
       quorum: 106.14.183.86:2181
-      rootDir: /
+      rootDir: file:/tmp/hbase-root/hbase
       nodeParent: /hbase
   redis:
     host: 106.14.183.86
     port: 6379
+    password: 123456
 server:
   port: 9528
 logging:
